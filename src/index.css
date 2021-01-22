@@ -1,0 +1,42 @@
+body {
+
+}
+
+.grid-row:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.wall,
+.unselected,
+.start,
+.end {
+	border: 1px solid #999;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 34px;
+	margin-right: -1px;
+	margin-top: -1px;
+	padding: 0;
+	text-align: center;
+	width: 34px;
+}
+
+.wall {
+	background: #000;
+}
+
+.unselected {
+	background: #fff;
+}
+
+.start {
+	background: #0F0;
+}
+
+.end {
+	background: #00F;
+}
