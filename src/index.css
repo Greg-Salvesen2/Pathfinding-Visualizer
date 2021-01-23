@@ -11,7 +11,10 @@ body {
 .wall,
 .unselected,
 .start,
-.end {
+.end,
+.current,
+.visited,
+.path {
 	border: 1px solid #999;
 	float: left;
 	font-size: 24px;
@@ -34,9 +37,21 @@ body {
 }
 
 .start {
-	background: #0F0;
+	background: #00F;
 }
 
 .end {
-	background: #00F;
+	background: #0F0;
+}
+
+.current {
+	background: #F00;
+}
+
+.visited {
+	background: #0FF;
+}
+
+.path {
+	background: #FF0;
 }
